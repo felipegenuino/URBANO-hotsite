@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Page Not Found :(</title>
+        <title>Página não encontrada :(</title>
         <style>
             ::-moz-selection {
                 background: #b3d4fc;
@@ -18,10 +18,11 @@
                 padding: 30px 10px;
                 font-size: 20px;
                 line-height: 1.4;
-                color: #737373;
+                color: #fff;
                 background: #f0f0f0;
                 -webkit-text-size-adjust: 100%;
                 -ms-text-size-adjust: 100%;
+                 background:url("img/background-1.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
             }
 
             html,
@@ -30,6 +31,7 @@
             }
 
             body {
+
                 max-width: 500px;
                 _width: 500px;
                 padding: 30px 20px 50px;
@@ -37,9 +39,16 @@
                 border-radius: 4px;
                 margin: 0 auto;
                 box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
-                background: #fcfcfc;
-            }
+                background: none repeat scroll 0 0 #6BBFB7
+             }
 
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover{opacity: 0.8}
+a:active{opacity: 0.9}
             h1 {
                 margin: 0 10px;
                 font-size: 50px;
@@ -47,7 +56,7 @@
             }
 
             h1 span {
-                color: #bbb;
+                color: #f5f5f5;
             }
 
             h3 {
@@ -87,8 +96,7 @@
                 font-size: 16px;
                 line-height: normal;
                 vertical-align: top;
-                color: #444;
-                border-radius: 2px;
+                 border-radius: 2px;
             }
 
             #goog-wm-qt {
@@ -130,8 +138,7 @@
             #goog-wm-qt:focus {
                 border-color: #105cb6;
                 outline: 0;
-                color: #222;
-            }
+             }
 
             input::-moz-focus-inner {
                 padding: 0;
@@ -141,12 +148,12 @@
     </head>
     <body>
         <div class="container">
-            <h1>Not found <span>:(</span></h1>
-            <p>Sorry, but the page you were trying to view does not exist.</p>
-            <p>It looks like this was the result of either:</p>
+            <h1>#OPS <span>:(</span></h1>
+            <p>Desculpe, mas página que você procura não foi encontrada.</p>
+            <p>Tente um dos links abaixo</p>
             <ul>
-                <li>a mistyped address</li>
-                <li>an out-of-date link</li>
+                <li><a href="#" title="Página inicial do projeto">#movimento como faz bem</a></li>
+                <li><a href="#" title="Página inicial">http://urbano.com.br</a></li>
             </ul>
             <script>
                 var GOOG_FIXURL_LANG = (navigator.language || '').slice(0,2),GOOG_FIXURL_SITE = location.host;
