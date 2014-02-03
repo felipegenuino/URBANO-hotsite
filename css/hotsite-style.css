@@ -963,3 +963,12 @@ form.login .button {
     margin: 0;
     text-transform: uppercase;
 }
+
+.panel-error {
+    background: none repeat scroll 0 0 #FF0000;
+    color: #FFFFFF;
+    font-size: 0.8em;
+    margin-bottom: 20px;
+    padding: 5px 0;
+    text-align: center;
+}
