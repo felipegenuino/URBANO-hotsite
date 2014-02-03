@@ -1,0 +1,20 @@
+ 
+
+
+
+/* 'STRUTURE
+=============================================*/
+	header{background: url("../images/background-1.png")}
+			.banner{ height: 665px}
+			.banner-caption { height: 190px; background: #6BBFB7}
+			.logotipo-primary {
+			    background: url("../images/logotipo-primary.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+			    display: block;
+			    height: 480px;
+			    margin: 0 auto;
+			    width: 570px;
+			}
+ 	main{background:#fff}
+ 	footer{background:#6BBFB7}
+
+
