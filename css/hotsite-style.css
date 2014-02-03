@@ -710,8 +710,8 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  /*     @else                            { font-size: $padding - rem-calc(2); } */
-  background-color: #34A167;
+  /*     @else                         { font-size: $padding - rem-calc(2); } */
+  background-color: #6BBFB7 ;
   border-color: #38AE6F;
   color: white;
   -webkit-transition: background-color 300ms ease-out;
@@ -722,8 +722,9 @@ button, .button {
   -webkit-appearance: none;
   border: none;
   font-weight: normal !important; }
+  
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #38AE6F; }
+    opacity: 0.9}
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
