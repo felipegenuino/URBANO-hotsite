@@ -1,0 +1,383 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}button,html,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:.67em 0}h2{font-size:1.5em;margin:.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:.83em;margin:1.67em 0}h6{font-size:.75em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}p,pre{margin:1em 0}code,kbd,pre,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:after,q:before{content:'';content:none}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ol,nav ul{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure,form{margin:0}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}button,html,input,select,textarea{color:#222}body{font-size:1em;line-height:1.4}::-moz-selection{background:#b3d4fc;text-shadow:none}::selection{background:#b3d4fc;text-shadow:none}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}img{vertical-align:middle}fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}.chromeframe{margin:.2em 0;background:#ccc;color:#000;padding:.2em 0}
+ 
+
+
+/* 'STRUTURE
+=============================================*/
+body { font: 1.2em/1.2 "klinic_slabbook",Arial,"Liberation Sans",FreeSans,sans-serif;  background: #fff; color: #000; padding: 0; margin: 0;  font-weight: normal;  font-style: normal;   position: relative; cursor: default; }
+
+ 
+
+header {
+    background: url("../img/background-1.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+      .banner{ height: 665px}
+ 
+.banner-caption {
+    background: none repeat scroll 0 0 #6BBFB7;
+    display:inline-block;
+    width: 100%;
+}
+
+.banner-caption h2 {
+    background: url("../img/hashtag-banner-caption.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-family: "klinic_slabbook";
+    font-size: 36px;
+    line-height: 46px;
+    margin: auto;
+    padding: 35px 0 35px 120px;
+    text-transform: uppercase;
+    width: 400px;
+}
+
+.logotipo-primary {
+    background: url("../img/logotipo-primary.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 480px;
+    margin: 0 auto;
+    width: 570px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  main{background:#fff; display:block;    width: 100%;}
+
+.chamada {
+    margin: auto;
+    text-align: center;
+    width: 725px;
+ }
+ .chamada .text-a {
+    font-size: 1.2em;
+}
+
+
+
+
+.lista-pensamentos {
+    list-style: none outside none;
+    margin: 40px 0;
+    padding: 0;
+}
+
+.lista-pensamentos li {
+    display: inline-block;
+	/* height: 190px; */
+    margin-right: -4px;
+    position: relative;
+    text-align: center;
+    width: 20%;
+    z-index: 1000;
+    color: #FFFFFF;
+}
+
+
+
+.lista-pensamentos li a {
+     display: block;
+    height: 100%;
+}
+
+.lista-pensamentos li:before {
+    /* border: 1px solid; */
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: skewX(-10grad);
+      -moz-transform: skewX(-10grad);
+        -webkit-transform: skewX(-10grad);
+    width: 100%;
+    z-index: -1;
+}
+
+.lista-pensamentos li:hover:before{ opacity: 0.90}
+
+
+
+ 
+.lista-pensamentos-01:before{background:#E8336A } 
+.lista-pensamentos-02:before{background:#A0C14D } 
+.lista-pensamentos-03:before{background:#F2B705 } 
+.lista-pensamentos-04:before{background:#6BBFB7 } 
+.lista-pensamentos-05:before{background:#E87054 } 
+.lista-pensamentos-06:before{background:#6BBFB7 } 
+.lista-pensamentos-07:before{background:#F272B8 } 
+.lista-pensamentos-08:before{background:#A0C14D } 
+.lista-pensamentos-09:before{background:#E87054 } 
+.lista-pensamentos-10:before{background:#E8336A } 
+
+.lista-pensamentos-11:before{background:#F272B8 } 
+.lista-pensamentos-12:before{background:#0588D1 } 
+.lista-pensamentos-13:before{background:#F2B705 } 
+.lista-pensamentos-14:before{background:#E8336A } 
+.lista-pensamentos-15:before{background:#A0C14D } 
+.lista-pensamentos-16:before{background:#0588D1 } 
+.lista-pensamentos-17:before{background:#A0C14D } 
+.lista-pensamentos-18:before{background:#F272B8 } 
+.lista-pensamentos-19:before{background:#0588D1 } 
+.lista-pensamentos-20:before{background:#F2B705 } 
+
+.lista-pensamentos-21:before{background:#E8336A } 
+.lista-pensamentos-22:before{background:#A0C14D } 
+.lista-pensamentos-23:before{background:#F272B8 } 
+.lista-pensamentos-24:before{background:#6BBFB7 } 
+.lista-pensamentos-25:before{background:#F2B705 } 
+.lista-pensamentos-26:before{background:#F272B8 } 
+.lista-pensamentos-27:before{background:#6BBFB7 } 
+.lista-pensamentos-28:before{background:#E87054 } 
+.lista-pensamentos-29:before{background:#A0C14D } 
+.lista-pensamentos-30:before{background:#6BBFB7 } 
+
+.lista-pensamentos-31:before{background:#F2B705 } 
+.lista-pensamentos-32:before{background:#6BBFB7 } 
+.lista-pensamentos-33:before{background:#F2B705 } 
+.lista-pensamentos-34:before{background:#A0C14D } 
+.lista-pensamentos-35:before{background:#E8336A } 
+.lista-pensamentos-36:before{background:#E87054 } 
+.lista-pensamentos-37:before{background:#F2B705 } 
+.lista-pensamentos-38:before{background:#F272B8 } 
+.lista-pensamentos-39:before{background:#E8336A } 
+.lista-pensamentos-40:before{background:#F2B705 } 
+
+
+.lista-pensamentos-41:before{background:#E87054 } 
+.lista-pensamentos-42:before{background:#6BBFB7 } 
+.lista-pensamentos-43:before{background:#E8336A } 
+.lista-pensamentos-44:before{background:#F272B8 } 
+.lista-pensamentos-45:before{background:#A0C14D } 
+.lista-pensamentos-46:before{background:#E8336A } 
+.lista-pensamentos-47:before{background:#F2B705 } 
+.lista-pensamentos-48:before{background:#6BBFB7 } 
+.lista-pensamentos-49:before{background:#F272B8 } 
+.lista-pensamentos-50:before{background:#F2B705 } 
+
+.lista-pensamentos-51:before{background:#A0C14D } 
+.lista-pensamentos-52:before{background:#E87054 } 
+.lista-pensamentos-53:before{background:#F272B8 } 
+.lista-pensamentos-54:before{background:#F2B705 } 
+
+ 
+
+.button.participe {
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 1.7em;
+    margin: 0 auto 20px;
+    padding: 6px 20px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 210px;
+}
+ 
+
+
+.button.participe:hover:before{opacity: 0.8}
+.button.participe:active:before{opacity: 0.9}
+
+.button.participe:before {
+    background: none repeat scroll 0 0 #6BBFB7;
+    box-shadow: 3px 3px 1px #518E87;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: skewX(-10grad);
+      -moz-transform: skewX(-10grad);
+        -webkit-transform: skewX(-10grad);
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+
+footer {
+    background: none repeat scroll 0 0 #6BBFB7;
+    color: #FFFFFF;
+    display: inline-block;
+    height: 160px;
+    padding: 40px 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
