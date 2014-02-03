@@ -104,6 +104,8 @@ header {
     position: absolute;
     top: 0;
     transform: skewX(-10grad);
+      -moz-transform: skewX(-10grad);
+        -webkit-transform: skewX(-10grad);
     width: 100%;
     z-index: -1;
 }
