@@ -66,17 +66,8 @@ header.header{
 
   main{ display:block;    width: 100%;}
 
-.chamada {
-    margin: auto;
-    text-align: center;
-    width: 725px;
- }
- .chamada .text-a {
-    font-size: 1.2em;
-}
-
-
-
+.chamada {    margin: auto;    text-align: center;    width: 725px; }
+.chamada .text-a {    font-size: 1.2em;}
 
 .lista-pensamentos {
     list-style: none outside none;
@@ -84,15 +75,18 @@ header.header{
     padding: 0;
 }
 
+
+
+
 .lista-pensamentos li {
+    color: #FFFFFF;
     display: inline-block;
-	/* height: 190px; */
-    margin-right: -4px;
+    margin-bottom: 3px;
+    margin-right: auto;
     position: relative;
     text-align: center;
-    width: 20%;
+    width: 19%;
     z-index: 1000;
-    color: #FFFFFF;
 }
 
 
@@ -145,7 +139,7 @@ header.header{
 
 .lista-pensamentos-21:before{background:#E8336A } 
 .lista-pensamentos-22:before{background:#A0C14D } 
-.lista-pensamentos-23:before{background:#F272B8 } 
+.lista-pensamentos-23:before{background:#0588D1 } 
 .lista-pensamentos-24:before{background:#6BBFB7 } 
 .lista-pensamentos-25:before{background:#F2B705 } 
 .lista-pensamentos-26:before{background:#F272B8 } 
@@ -182,7 +176,89 @@ header.header{
 .lista-pensamentos-53:before{background:#F272B8 } 
 .lista-pensamentos-54:before{background:#F2B705 } 
 
+
+
+ .lista-pensamentos li.lista-pensamentos-01.disable:after{    background: url("../img/pensamentos/capa-pensamento-01-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-02.disable:after{    background: url("../img/pensamentos/capa-pensamento-02-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-03.disable:after{    background: url("../img/pensamentos/capa-pensamento-03-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-04.disable:after{    background: url("../img/pensamentos/capa-pensamento-04-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-05.disable:after{    background: url("../img/pensamentos/capa-pensamento-05-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-06.disable:after{    background: url("../img/pensamentos/capa-pensamento-06-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-07.disable:after{    background: url("../img/pensamentos/capa-pensamento-07-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-08.disable:after{    background: url("../img/pensamentos/capa-pensamento-08-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-09.disable:after{    background: url("../img/pensamentos/capa-pensamento-09-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-10.disable:after{    background: url("../img/pensamentos/capa-pensamento-10-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
  
+ .lista-pensamentos li.lista-pensamentos-11.disable:after{    background: url("../img/pensamentos/capa-pensamento-11-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-12.disable:after{    background: url("../img/pensamentos/capa-pensamento-12-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-13.disable:after{    background: url("../img/pensamentos/capa-pensamento-13-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-14.disable:after{    background: url("../img/pensamentos/capa-pensamento-14-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-15.disable:after{    background: url("../img/pensamentos/capa-pensamento-15-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-16.disable:after{    background: url("../img/pensamentos/capa-pensamento-16-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-17.disable:after{    background: url("../img/pensamentos/capa-pensamento-17-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-18.disable:after{    background: url("../img/pensamentos/capa-pensamento-18-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-19.disable:after{    background: url("../img/pensamentos/capa-pensamento-19-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-20.disable:after{    background: url("../img/pensamentos/capa-pensamento-20-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+
+ .lista-pensamentos li.lista-pensamentos-21.disable:after{    background: url("../img/pensamentos/capa-pensamento-21-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-22.disable:after{    background: url("../img/pensamentos/capa-pensamento-22-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-23.disable:after{    background: url("../img/pensamentos/capa-pensamento-23-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-24.disable:after{    background: url("../img/pensamentos/capa-pensamento-24-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-25.disable:after{    background: url("../img/pensamentos/capa-pensamento-25-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-26.disable:after{    background: url("../img/pensamentos/capa-pensamento-26-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-27.disable:after{    background: url("../img/pensamentos/capa-pensamento-27-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-28.disable:after{    background: url("../img/pensamentos/capa-pensamento-28-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-29.disable:after{    background: url("../img/pensamentos/capa-pensamento-29-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-30.disable:after{    background: url("../img/pensamentos/capa-pensamento-30-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+
+ .lista-pensamentos li.lista-pensamentos-31.disable:after{    background: url("../img/pensamentos/capa-pensamento-31-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-32.disable:after{    background: url("../img/pensamentos/capa-pensamento-32-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-33.disable:after{    background: url("../img/pensamentos/capa-pensamento-33-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-34.disable:after{    background: url("../img/pensamentos/capa-pensamento-34-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-35.disable:after{    background: url("../img/pensamentos/capa-pensamento-35-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-36.disable:after{    background: url("../img/pensamentos/capa-pensamento-36-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-37.disable:after{    background: url("../img/pensamentos/capa-pensamento-37-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-38.disable:after{    background: url("../img/pensamentos/capa-pensamento-38-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-39.disable:after{    background: url("../img/pensamentos/capa-pensamento-39-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-40.disable:after{    background: url("../img/pensamentos/capa-pensamento-40-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+
+ .lista-pensamentos li.lista-pensamentos-41.disable:after{    background: url("../img/pensamentos/capa-pensamento-41-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-42.disable:after{    background: url("../img/pensamentos/capa-pensamento-42-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-43.disable:after{    background: url("../img/pensamentos/capa-pensamento-43-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-44.disable:after{    background: url("../img/pensamentos/capa-pensamento-44-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-45.disable:after{    background: url("../img/pensamentos/capa-pensamento-45-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-46.disable:after{    background: url("../img/pensamentos/capa-pensamento-46-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-47.disable:after{    background: url("../img/pensamentos/capa-pensamento-47-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-48.disable:after{    background: url("../img/pensamentos/capa-pensamento-48-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-49.disable:after{    background: url("../img/pensamentos/capa-pensamento-49-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-50.disable:after{    background: url("../img/pensamentos/capa-pensamento-50-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+
+
+ .lista-pensamentos li.lista-pensamentos-51.disable:after{    background: url("../img/pensamentos/capa-pensamento-51-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-52.disable:after{    background: url("../img/pensamentos/capa-pensamento-52-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-53.disable:after{    background: url("../img/pensamentos/capa-pensamento-53-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-54.disable:after{    background: url("../img/pensamentos/capa-pensamento-54-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-55.disable:after{    background: url("../img/pensamentos/capa-pensamento-55-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+
+ 
+
+
+.lista-pensamentos li.disable:after {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    content: "";
+    cursor: no-drop;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transform: skewX(-10grad);
+      -moz-transform: skewX(-10grad);
+        -webkit-transform: skewX(-10grad);
+    width: 100%;
+}
+
+
 
 .button.participe {
     color: #FFFFFF;
