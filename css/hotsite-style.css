@@ -56,11 +56,18 @@ header.header{
 
 
 
+.voltar-galerias{}
 
 
 
-
-
+.wrap{       
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 4px 4px 4px 4px;
+    color: #333333;
+    font-size: 1.5em;
+    margin: 0 auto;
+    padding: 30px 20px;
+    width: 100%;}
 
 
 
@@ -68,6 +75,31 @@ header.header{
 
 .chamada {    margin: auto;    text-align: center;    width: 725px; }
 .chamada .text-a {    font-size: 1.2em;}
+
+
+.lista-pensamentos.selected-admin { margin-left: 10px;} 
+ .lista-pensamentos.selected-admin li:hover:before{ background: #555}
+.lista-pensamentos.selected-admin li {
+    height: 90px;
+    margin-bottom: 5px;
+    width: 90px;
+}
+.lista-pensamentos.selected-admin li img {    width: 100%;}
+.lista-pensamentos.selected-admin li a{}
+.lista-pensamentos.selected-admin li:before{}
+
+.title-galeria-admin {
+    color: #000000 !important;
+    padding-left: 20px;
+    text-align: left !important;
+    width: 700px !important;
+}
+.title-galeria-admin:hover:before {
+    background: none repeat scroll 0 0 transparent !important;
+}
+
+
+
 
 .lista-pensamentos {
     list-style: none outside none;
