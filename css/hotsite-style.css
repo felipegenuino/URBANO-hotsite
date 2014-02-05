@@ -1,22 +1,27 @@
-article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}button,html,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:.67em 0}h2{font-size:1.5em;margin:.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:.83em;margin:1.67em 0}h6{font-size:.75em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}p,pre{margin:1em 0}code,kbd,pre,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:after,q:before{content:'';content:none}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ol,nav ul{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure,form{margin:0}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}button,html,input,select,textarea{color:#222}body{font-size:1em;line-height:1.4}::-moz-selection{background:#b3d4fc;text-shadow:none}::selection{background:#b3d4fc;text-shadow:none}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}img{vertical-align:middle}fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}.chromeframe{margin:.2em 0;background:#ccc;color:#000;padding:.2em 0}
- 
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}button,html,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus,:before, :after{outline:none}a:active,a:hover{outline:0}h1{font-size:2em;margin:.67em 0}h2{font-size:1.5em;margin:.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:.83em;margin:1.67em 0}h6{font-size:.75em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}p,pre{margin:1em 0}code,kbd,pre,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:after,q:before{content:'';content:none}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ol,nav ul{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure,form{margin:0}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}button,html,input,select,textarea{color:#222}body{font-size:1em;line-height:1.4}::-moz-selection{background:#b3d4fc;text-shadow:none}::selection{background:#b3d4fc;text-shadow:none}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}img{vertical-align:middle}fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}.chromeframe{margin:.2em 0;background:#ccc;color:#000;padding:.2em 0}
+ .hide{display: none}
+  	:before, :after,  ,*, .transition{   transition: all 0.5s ease 0s; -ms-transition: all 0.5s ease 0s;  -webkit-transition: all 0.5s ease 0s; -moz-transition: all 0.5s ease 0s; -o-transition: all 0.5s ease 0s; }
 
 
 /* 'STRUTURE
 =============================================*/
 body { font: 1.2em/1.2 "klinic_slabbook",Arial,"Liberation Sans",FreeSans,sans-serif;  background: #fff; color: #000; padding: 0; margin: 0;  font-weight: normal;  font-style: normal;   position: relative; cursor: default; }
 
- 
+  a:hover{opacity: 0.8}
+	a:active{opacity: 0.9}
 
-header {
-    background: url("../img/background-1.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+.background {   background: url("../img/background-1.png") repeat scroll center -30px rgba(0, 0, 0, 0); }
+
+
+header.header{
+    background: url("../img/background-1.png") repeat scroll center -30px rgba(0, 0, 0, 0);
     display: inline-block;
     margin: 0;
     padding: 0;
     width: 100%;
 }
 
-
+ 
       .banner{ height: 665px}
  
 .banner-caption {
@@ -44,29 +49,58 @@ header {
     margin: 0 auto;
     width: 570px;
 }
+.logotipo-primary:hover {opacity: 0.95}
 
 
 
 
 
 
+.voltar-galerias {
+    color: #555555;
+    float: left;
+    font-size: 16px;
+    text-decoration: none;
+}
 
 
 
+.wrap{       
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 4px 4px 4px 4px;
+    color: #333333;
+    font-size: 1.5em;
+    margin: 0 auto;
+    padding: 30px 20px;
+    width: 100%;}
 
 
 
+  main{ display:block;    width: 100%;}
+
+.chamada {    margin: auto;    text-align: center;    width: 725px; }
+.chamada .text-a {    font-size: 1.2em;}
 
 
-  main{background:#fff; display:block;    width: 100%;}
+.lista-pensamentos.selected-admin { margin-left: 10px;} 
+ .lista-pensamentos.selected-admin li:hover:before{ background: #555}
+.lista-pensamentos.selected-admin li {
+    height: 90px;
+    margin-bottom: 5px;
+    width: 90px;
+}
+.lista-pensamentos.selected-admin li img {    width: 100%;}
+.lista-pensamentos.selected-admin li a{}
+.lista-pensamentos.selected-admin li:before{}
 
-.chamada {
-    margin: auto;
-    text-align: center;
-    width: 725px;
- }
- .chamada .text-a {
-    font-size: 1.2em;
+.title-galeria-admin {
+    color: #000000 !important;
+    padding-left: 20px;
+    text-align: left !important;
+    width: 700px !important;
+}
+.title-galeria-admin:hover:before {
+    background: none repeat scroll 0 0 transparent !important;
 }
 
 
@@ -78,15 +112,18 @@ header {
     padding: 0;
 }
 
+
+
+
 .lista-pensamentos li {
+    color: #FFFFFF;
     display: inline-block;
-	/* height: 190px; */
-    margin-right: -4px;
+    margin-bottom: 3px;
+    margin-right: auto;
     position: relative;
     text-align: center;
-    width: 20%;
+    width: 19%;
     z-index: 1000;
-    color: #FFFFFF;
 }
 
 
@@ -139,7 +176,7 @@ header {
 
 .lista-pensamentos-21:before{background:#E8336A } 
 .lista-pensamentos-22:before{background:#A0C14D } 
-.lista-pensamentos-23:before{background:#F272B8 } 
+.lista-pensamentos-23:before{background:#0588D1 } 
 .lista-pensamentos-24:before{background:#6BBFB7 } 
 .lista-pensamentos-25:before{background:#F2B705 } 
 .lista-pensamentos-26:before{background:#F272B8 } 
@@ -176,7 +213,89 @@ header {
 .lista-pensamentos-53:before{background:#F272B8 } 
 .lista-pensamentos-54:before{background:#F2B705 } 
 
+
+
+ .lista-pensamentos li.lista-pensamentos-01.disable:after{    background: url("../img/pensamentos/capa-pensamento-01-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-02.disable:after{    background: url("../img/pensamentos/capa-pensamento-02-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-03.disable:after{    background: url("../img/pensamentos/capa-pensamento-03-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-04.disable:after{    background: url("../img/pensamentos/capa-pensamento-04-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-05.disable:after{    background: url("../img/pensamentos/capa-pensamento-05-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-06.disable:after{    background: url("../img/pensamentos/capa-pensamento-06-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-07.disable:after{    background: url("../img/pensamentos/capa-pensamento-07-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-08.disable:after{    background: url("../img/pensamentos/capa-pensamento-08-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-09.disable:after{    background: url("../img/pensamentos/capa-pensamento-09-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-10.disable:after{    background: url("../img/pensamentos/capa-pensamento-10-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
  
+ .lista-pensamentos li.lista-pensamentos-11.disable:after{    background: url("../img/pensamentos/capa-pensamento-11-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-12.disable:after{    background: url("../img/pensamentos/capa-pensamento-12-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-13.disable:after{    background: url("../img/pensamentos/capa-pensamento-13-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-14.disable:after{    background: url("../img/pensamentos/capa-pensamento-14-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-15.disable:after{    background: url("../img/pensamentos/capa-pensamento-15-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-16.disable:after{    background: url("../img/pensamentos/capa-pensamento-16-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-17.disable:after{    background: url("../img/pensamentos/capa-pensamento-17-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-18.disable:after{    background: url("../img/pensamentos/capa-pensamento-18-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-19.disable:after{    background: url("../img/pensamentos/capa-pensamento-19-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-20.disable:after{    background: url("../img/pensamentos/capa-pensamento-20-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+
+ .lista-pensamentos li.lista-pensamentos-21.disable:after{    background: url("../img/pensamentos/capa-pensamento-21-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-22.disable:after{    background: url("../img/pensamentos/capa-pensamento-22-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-23.disable:after{    background: url("../img/pensamentos/capa-pensamento-23-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-24.disable:after{    background: url("../img/pensamentos/capa-pensamento-24-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-25.disable:after{    background: url("../img/pensamentos/capa-pensamento-25-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-26.disable:after{    background: url("../img/pensamentos/capa-pensamento-26-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-27.disable:after{    background: url("../img/pensamentos/capa-pensamento-27-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-28.disable:after{    background: url("../img/pensamentos/capa-pensamento-28-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-29.disable:after{    background: url("../img/pensamentos/capa-pensamento-29-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-30.disable:after{    background: url("../img/pensamentos/capa-pensamento-30-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+
+ .lista-pensamentos li.lista-pensamentos-31.disable:after{    background: url("../img/pensamentos/capa-pensamento-31-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-32.disable:after{    background: url("../img/pensamentos/capa-pensamento-32-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-33.disable:after{    background: url("../img/pensamentos/capa-pensamento-33-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-34.disable:after{    background: url("../img/pensamentos/capa-pensamento-34-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-35.disable:after{    background: url("../img/pensamentos/capa-pensamento-35-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-36.disable:after{    background: url("../img/pensamentos/capa-pensamento-36-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-37.disable:after{    background: url("../img/pensamentos/capa-pensamento-37-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-38.disable:after{    background: url("../img/pensamentos/capa-pensamento-38-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-39.disable:after{    background: url("../img/pensamentos/capa-pensamento-39-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-40.disable:after{    background: url("../img/pensamentos/capa-pensamento-40-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+
+ .lista-pensamentos li.lista-pensamentos-41.disable:after{    background: url("../img/pensamentos/capa-pensamento-41-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-42.disable:after{    background: url("../img/pensamentos/capa-pensamento-42-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-43.disable:after{    background: url("../img/pensamentos/capa-pensamento-43-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-44.disable:after{    background: url("../img/pensamentos/capa-pensamento-44-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-45.disable:after{    background: url("../img/pensamentos/capa-pensamento-45-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-46.disable:after{    background: url("../img/pensamentos/capa-pensamento-46-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-47.disable:after{    background: url("../img/pensamentos/capa-pensamento-47-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-48.disable:after{    background: url("../img/pensamentos/capa-pensamento-48-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-49.disable:after{    background: url("../img/pensamentos/capa-pensamento-49-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-50.disable:after{    background: url("../img/pensamentos/capa-pensamento-50-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+
+
+ .lista-pensamentos li.lista-pensamentos-51.disable:after{    background: url("../img/pensamentos/capa-pensamento-51-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-52.disable:after{    background: url("../img/pensamentos/capa-pensamento-52-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-53.disable:after{    background: url("../img/pensamentos/capa-pensamento-53-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-54.disable:after{    background: url("../img/pensamentos/capa-pensamento-54-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+ .lista-pensamentos li.lista-pensamentos-55.disable:after{    background: url("../img/pensamentos/capa-pensamento-55-disable.png") no-repeat scroll center center rgba(0, 0, 0, 0.7)}
+
+ 
+
+
+.lista-pensamentos li.disable:after {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    content: "";
+    cursor: no-drop;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transform: skewX(-10grad);
+      -moz-transform: skewX(-10grad);
+        -webkit-transform: skewX(-10grad);
+    width: 100%;
+}
+
+
 
 .button.participe {
     color: #FFFFFF;
@@ -188,10 +307,12 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     width: 210px;
+    background: none;
+    font-family:inherit;
 }
+ .button.participe:hover{ background: none}
+
  
-
-
 .button.participe:hover:before{opacity: 0.8}
 .button.participe:active:before{opacity: 0.9}
 
@@ -217,17 +338,47 @@ footer {
     background: none repeat scroll 0 0 #6BBFB7;
     color: #FFFFFF;
     display: inline-block;
-    height: 160px;
-    padding: 40px 0;
+ 
+    padding: 40px 0 0;
     width: 100%;
 }
 
+footer a{color: #FFFFFF; text-decoration: none}
+
+
+footer .chamada p{margin: 0}
 
 
 
+.facebook {
+    display: inline-block;
+    margin-bottom: 10px;
+    position: relative;
+    width: auto;
+}
 
 
+.icon-facebook {
+    display: inline-block;
+     
+}
 
+.facebook:before {
+    background: url("../img/icon-facebook.png") no-repeat scroll -1px 0 rgba(0, 0, 0, 0);
+    content: "_";
+    display: inline-block;
+    left: -25px;
+    position: absolute;
+    top: 3px;
+    width: 25px;
+}
+
+
+.copyright {
+    display: inline-block;
+    font-size: 16px;
+    padding-top: 30px;
+}
 
 
 
@@ -311,6 +462,516 @@ footer {
     *zoom: 1;
 }
 
+
+
+
+
+
+
+
+
+
+/*FORMULARIOS*/
+
+
+/* Standard Forms */
+form {
+  margin: 0 0 1rem; }
+
+/* Using forms within rows, we need to set some defaults */
+form .row .row {
+  margin: 0 -0.5rem; }
+  form .row .row .column,
+  form .row .row .columns {
+    padding: 0 0.5rem; }
+  form .row .row.collapse {
+    margin: 0; }
+    form .row .row.collapse .column,
+    form .row .row.collapse .columns {
+      padding: 0; }
+    form .row .row.collapse input {
+      -moz-border-radius-bottomright: 0;
+      -moz-border-radius-topright: 0;
+      -webkit-border-bottom-right-radius: 0;
+      -webkit-border-top-right-radius: 0; }
+form .row input.column,
+form .row input.columns,
+form .row textarea.column,
+form .row textarea.columns {
+  padding-left: 0.5rem; }
+
+/* Label Styles */
+label {
+  font-size: 1.2rem;
+  color: #4d4d4d;
+  cursor: pointer;
+  display: block;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+  /* Styles for required inputs */ }
+  label.right {
+    float: none;
+    text-align: right; }
+  label.inline {
+    margin: 0 0 1rem 0;
+    padding: 0.625rem 0; }
+  label small {
+    text-transform: capitalize;
+    color: #666666; }
+
+select {
+  -webkit-appearance: none !important;
+  background: #fafafa url("data:image/svg+xml;base64, PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI2cHgiIGhlaWdodD0iM3B4IiB2aWV3Qm94PSIwIDAgNiAzIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA2IDMiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwb2x5Z29uIHBvaW50cz0iNS45OTIsMCAyLjk5MiwzIC0wLjAwOCwwICIvPjwvc3ZnPg==") no-repeat;
+  background-position-x: 97%;
+  background-position-y: center;
+  border: 1px solid #cccccc;
+  padding: 0.5rem;
+  font-size: 0.875rem;
+  -webkit-border-radius: 0;
+  border-radius: 0; }
+  select.radius {
+    -webkit-border-radius: 3px;
+    border-radius: 3px; }
+  select:hover {
+    background: #f2f2f2 url("data:image/svg+xml;base64, PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI2cHgiIGhlaWdodD0iM3B4IiB2aWV3Qm94PSIwIDAgNiAzIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA2IDMiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwb2x5Z29uIHBvaW50cz0iNS45OTIsMCAyLjk5MiwzIC0wLjAwOCwwICIvPjwvc3ZnPg==") no-repeat;
+    background-position-x: 97%;
+    background-position-y: center;
+    border-color: #999999; }
+
+@-moz-document url-prefix() {
+  select {
+    background: #fafafa; }
+
+  select:hover {
+    background: #f2f2f2; } }
+
+/* Attach elements to the beginning or end of an input */
+.prefix,
+.postfix {
+  display: block;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  font-size: 0.875rem;
+  height: 2.3125rem;
+  line-height: 2.3125rem; }
+
+/* Adjust padding, alignment and radius if pre/post element is a button */
+.postfix.button {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+  line-height: 2.125rem;
+  border: none; }
+
+.prefix.button {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+  line-height: 2.125rem;
+  border: none; }
+
+.prefix.button.radius {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -moz-border-radius-bottomleft: 3px;
+  -moz-border-radius-topleft: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px; }
+
+.postfix.button.radius {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px; }
+
+.prefix.button.round {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -moz-border-radius-bottomleft: 1000px;
+  -moz-border-radius-topleft: 1000px;
+  -webkit-border-bottom-left-radius: 1000px;
+  -webkit-border-top-left-radius: 1000px;
+  border-bottom-left-radius: 1000px;
+  border-top-left-radius: 1000px; }
+
+.postfix.button.round {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -moz-border-radius-topright: 1000px;
+  -moz-border-radius-bottomright: 1000px;
+  -webkit-border-top-right-radius: 1000px;
+  -webkit-border-bottom-right-radius: 1000px;
+  border-top-right-radius: 1000px;
+  border-bottom-right-radius: 1000px; }
+
+/* Separate prefix and postfix styles when on span or label so buttons keep their own */
+span.prefix, label.prefix {
+  background: #f2f2f2;
+  border-color: #d9d9d9;
+  border-right: none;
+  color: #333333; }
+  span.prefix.radius, label.prefix.radius {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -moz-border-radius-bottomleft: 3px;
+    -moz-border-radius-topleft: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px; }
+
+span.postfix, label.postfix {
+  background: #f2f2f2;
+  border-color: #cccccc;
+  border-left: none;
+  color: #333333; }
+  span.postfix.radius, label.postfix.radius {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px; }
+
+/* Input groups will automatically style first and last elements of the group */
+.input-group.radius > *:first-child, .input-group.radius > *:first-child * {
+  -moz-border-radius-bottomleft: 3px;
+  -moz-border-radius-topleft: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px; }
+.input-group.radius > *:last-child, .input-group.radius > *:last-child * {
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px; }
+.input-group.round > *:first-child, .input-group.round > *:first-child * {
+  -moz-border-radius-bottomleft: 1000px;
+  -moz-border-radius-topleft: 1000px;
+  -webkit-border-bottom-left-radius: 1000px;
+  -webkit-border-top-left-radius: 1000px;
+  border-bottom-left-radius: 1000px;
+  border-top-left-radius: 1000px; }
+.input-group.round > *:last-child, .input-group.round > *:last-child * {
+  -moz-border-radius-topright: 1000px;
+  -moz-border-radius-bottomright: 1000px;
+  -webkit-border-top-right-radius: 1000px;
+  -webkit-border-bottom-right-radius: 1000px;
+  border-top-right-radius: 1000px;
+  border-bottom-right-radius: 1000px; }
+
+/* We use this to get basic styling on all basic form elements */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background-color: white;
+  font-family: inherit;
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.75);
+  display: block;
+  font-size: 1.2rem;
+  margin: 0 0 1rem 0;
+  padding: 0 0.5rem;
+  height: 2.3125rem;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: -webkit-box-shadow 0.45s, border-color 0.45s ease-in-out;
+  -moz-transition: -moz-box-shadow 0.45s, border-color 0.45s ease-in-out;
+  transition: box-shadow 0.45s, border-color 0.45s ease-in-out; }
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="date"]:focus,
+  input[type="datetime"]:focus,
+  input[type="datetime-local"]:focus,
+  input[type="month"]:focus,
+  input[type="week"]:focus,
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  input[type="search"]:focus,
+  input[type="tel"]:focus,
+  input[type="time"]:focus,
+  input[type="url"]:focus,
+  textarea:focus {
+    -webkit-box-shadow: 0 0 5px #999999;
+    -moz-box-shadow: 0 0 5px #999999;
+    box-shadow: 0 0 5px #999999;
+    border-color: #999999; }
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="date"]:focus,
+  input[type="datetime"]:focus,
+  input[type="datetime-local"]:focus,
+  input[type="month"]:focus,
+  input[type="week"]:focus,
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  input[type="search"]:focus,
+  input[type="tel"]:focus,
+  input[type="time"]:focus,
+  input[type="url"]:focus,
+  textarea:focus {
+    background: #fafafa;
+    border-color: #999999;
+    outline: none; }
+  input[type="text"][disabled],
+  input[type="password"][disabled],
+  input[type="date"][disabled],
+  input[type="datetime"][disabled],
+  input[type="datetime-local"][disabled],
+  input[type="month"][disabled],
+  input[type="week"][disabled],
+  input[type="email"][disabled],
+  input[type="number"][disabled],
+  input[type="search"][disabled],
+  input[type="tel"][disabled],
+  input[type="time"][disabled],
+  input[type="url"][disabled],
+  textarea[disabled] {
+    background-color: #dddddd; }
+
+/* Adjust margin for form elements below */
+input[type="file"],
+input[type="checkbox"],
+input[type="radio"],
+select {
+  margin: 0 0 1rem 0; }
+
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+  display: inline-block;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  margin-bottom: 0;
+  vertical-align: baseline; }
+
+/* Normalize file input width */
+input[type="file"] {
+  width: 100%; }
+
+/* We add basic fieldset styling */
+fieldset {
+  border: solid 1px #dddddd;
+  padding: 1.25rem;
+  margin: 1.125rem 0; }
+  fieldset legend {
+    font-weight: bold;
+    background: white;
+    padding: 0 0.1875rem;
+    margin: 0;
+    margin-left: -0.1875rem; }
+
+
+
+
+
+
+
+
+/*buttons*/
+
+button, .button {
+  cursor: pointer;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  /*     @else                         { font-size: $padding - rem-calc(2); } */
+  background-color: #6BBFB7 ;
+  border-color: #38AE6F;
+  color: white;
+  -webkit-transition: background-color 300ms ease-out;
+  -moz-transition: background-color 300ms ease-out;
+  transition: background-color 300ms ease-out;
+  padding-top: 1.0625rem;
+  padding-bottom: 1rem;
+  -webkit-appearance: none;
+  border: none;
+  font-weight: normal !important; }
+  
+  button:hover, button:focus, .button:hover, .button:focus {
+    opacity: 0.9}
+  button:hover, button:focus, .button:hover, .button:focus {
+    color: white; }
+  button.secondary, .button.secondary {
+    background-color: #e7e7e7;
+    border-color: #dadada;
+    color: #333333; }
+    button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
+      background-color: #dadada; }
+    button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
+      color: #333333; }
+  button.success, .button.success {
+    background-color: #43ac6a;
+    border-color: #3c9a5f;
+    color: white; }
+    button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
+      background-color: #3c9a5f; }
+    button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
+      color: white; }
+  button.alert, .button.alert {
+    background-color: #f04124;
+    border-color: #ea2f10;
+    color: white; }
+    button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
+      background-color: #ea2f10; }
+    button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
+      color: white; }
+  button.large, .button.large {
+    padding-top: 1.125rem;
+    padding-right: 2.25rem;
+    padding-bottom: 1.1875rem;
+    padding-left: 2.25rem;
+    font-size: 1.25rem;
+    /*     @else                            { font-size: $padding - rem-calc(2); } */ }
+  button.small, .button.small {
+    padding-top: 0.875rem;
+    padding-right: 1.75rem;
+    padding-bottom: 0.9375rem;
+    padding-left: 1.75rem;
+    font-size: 0.8125rem;
+    /*     @else                            { font-size: $padding - rem-calc(2); } */ }
+  button.tiny, .button.tiny {
+    padding-top: 0.625rem;
+    padding-right: 1.25rem;
+    padding-bottom: 0.6875rem;
+    padding-left: 1.25rem;
+    font-size: 0.6875rem;
+    /*     @else                            { font-size: $padding - rem-calc(2); } */ }
+  button.expand, .button.expand {
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%; }
+  button.left-align, .button.left-align {
+    text-align: left;
+    text-indent: 0.75rem; }
+  button.right-align, .button.right-align {
+    text-align: right;
+    padding-right: 0.75rem; }
+  button.radius, .button.radius {
+    -webkit-border-radius: 3px;
+    border-radius: 3px; }
+  button.round, .button.round {
+    -webkit-border-radius: 1000px;
+    border-radius: 1000px; }
+  button.disabled, button[disabled], .button.disabled, .button[disabled] {
+    background-color: #008cba;
+    border-color: #0079a1;
+    color: white;
+    cursor: default;
+    opacity: 0.7;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+    button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
+      background-color: #0079a1; }
+    button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
+      color: white; }
+    button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
+      background-color: #008cba; }
+    button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
+      background-color: #e7e7e7;
+      border-color: #dadada;
+      color: #333333;
+      cursor: default;
+      opacity: 0.7;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+      button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
+        background-color: #dadada; }
+      button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
+        color: #333333; }
+      button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
+        background-color: #e7e7e7; }
+    button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
+      background-color: #43ac6a;
+      border-color: #3c9a5f;
+      color: white;
+      cursor: default;
+      opacity: 0.7;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+      button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
+        background-color: #3c9a5f; }
+      button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
+        color: white; }
+      button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
+        background-color: #43ac6a; }
+    button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[disabled].alert {
+      background-color: #f04124;
+      border-color: #ea2f10;
+      color: white;
+      cursor: default;
+      opacity: 0.7;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+      button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
+        background-color: #ea2f10; }
+      button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
+        color: white; }
+      button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
+        background-color: #f04124; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Print styles
    ========================================================================== */
@@ -380,4 +1041,47 @@ footer {
     h3 {
         page-break-after: avoid;
     }
+}
+
+
+
+ 
+
+form.login {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #6BBFB7;
+    border-radius: 4px;
+    box-shadow: 0 1px 10px #A7A7A7, 0 1px 0 #FFFFFF inset;
+    color: #333333;
+    font-size: 1.5em;
+    margin: 10% auto;
+    max-width: 500px;
+    padding: 30px 20px;
+}
+
+
+
+form.login legend {
+    text-transform: uppercase;
+}
+
+form.login fieldset {
+    border: medium none;
+    margin: 0;
+}
+
+form.login .button {
+    font-family: inherit;
+    font-size: 20px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.panel-error {
+    background: none repeat scroll 0 0 #FF0000;
+    color: #FFFFFF;
+    font-size: 0.8em;
+    margin-bottom: 20px;
+    padding: 5px 0;
+    text-align: center;
 }
