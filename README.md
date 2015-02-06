@@ -3,4 +3,4 @@ URBANO-hotsite
 
 Projeto fontend para URBANO
 
-Demo: http://lab.felipegenuino.com/URBANO-hotsite/
+Demo: www.comofazbem.com.br
